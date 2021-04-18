@@ -61,3 +61,25 @@
 [2021-04-18 06:20:26,474: INFO/ForkPoolWorker-1] Task tasks.sample_tasks.create_task[5c8b6a55-1095-4063-b2d7-a6146a5a4ca1] succeeded in 30.031015116999697s: True
 [2021-04-18 06:20:26,542: INFO/MainProcess] Received task: tasks.sample_tasks.create_task[ce2107d7-52e0-4801-9bc8-03b039aca932]  
 [2021-04-18 06:20:56,560: INFO/ForkPoolWorker-2] Task tasks.sample_tasks.create_task[ce2107d7-52e0-4801-9bc8-03b039aca932] succeeded in 30.009707627999887s: True
+[2021-04-18 06:39:38,084: INFO/MainProcess] Received task: tasks.sample_tasks.create_task[90b70855-b600-4d1a-a0fb-0468c533cd76]  
+[2021-04-18 06:39:45,730: INFO/MainProcess] Received task: tasks.sample_tasks.create_task[68e38c71-8f9e-4901-b061-e55649f97c72]  
+[2021-04-18 06:39:45,774: INFO/ForkPoolWorker-2] Task tasks.sample_tasks.create_task[68e38c71-8f9e-4901-b061-e55649f97c72] succeeded in 0.019584166999266017s: True
+[2021-04-18 06:40:08,223: INFO/ForkPoolWorker-2] Task tasks.sample_tasks.create_task[90b70855-b600-4d1a-a0fb-0468c533cd76] succeeded in 30.097803593000208s: True
+[2021-04-18 06:40:22,681: INFO/MainProcess] Received task: tasks.sample_tasks.create_task[31aeef21-949a-485e-9da6-d1bf197a3079]  
+[2021-04-18 06:40:32,701: INFO/ForkPoolWorker-2] Task tasks.sample_tasks.create_task[31aeef21-949a-485e-9da6-d1bf197a3079] succeeded in 10.008854808999786s: True
+[2021-04-18 06:42:06,980: INFO/MainProcess] Received task: tasks.sample_tasks.create_task[e529e2db-3132-4d16-9271-ea1caf87ed1d]  
+[2021-04-18 06:42:06,994: INFO/ForkPoolWorker-2] Task tasks.sample_tasks.create_task[e529e2db-3132-4d16-9271-ea1caf87ed1d] succeeded in 0.0015613149998898734s: True
+[2021-04-18 06:44:17,245: INFO/MainProcess] Connected to redis://redis:6379/0
+[2021-04-18 06:44:17,265: INFO/MainProcess] mingle: searching for neighbors
+[2021-04-18 06:44:18,304: INFO/MainProcess] mingle: all alone
+[2021-04-18 06:44:18,344: WARNING/MainProcess] /usr/local/lib/python3.8/site-packages/celery/fixups/django.py:202: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+[2021-04-18 06:44:18,347: INFO/MainProcess] celery@18f17c24df7b ready.
+[2021-04-18 06:44:21,172: INFO/MainProcess] Events of group {task} enabled by remote.
+[2021-04-18 06:45:47,445: INFO/MainProcess] Received task: tasks.sample_tasks.create_task[4b2e79db-6714-4069-bd6d-db99c5e46826]  
+[2021-04-18 06:45:57,614: INFO/ForkPoolWorker-2] Task tasks.sample_tasks.create_task[4b2e79db-6714-4069-bd6d-db99c5e46826] succeeded in 10.018080034999912s: True
+[2021-04-18 06:46:55,199: INFO/MainProcess] Received task: tasks.sample_tasks.create_task[4845e16b-0c50-462c-a662-cdf12201b014]  
+[2021-04-18 06:46:55,208: INFO/ForkPoolWorker-2] Task tasks.sample_tasks.create_task[4845e16b-0c50-462c-a662-cdf12201b014] succeeded in 0.002215374000115844s: True
+[2021-04-18 06:47:35,842: INFO/MainProcess] Received task: tasks.sample_tasks.create_task[1eb6755b-7c0a-47a2-8e7c-e7b4d702a8c9]  
+[2021-04-18 06:47:45,852: INFO/ForkPoolWorker-2] Task tasks.sample_tasks.create_task[1eb6755b-7c0a-47a2-8e7c-e7b4d702a8c9] succeeded in 10.00346427399927s: True
